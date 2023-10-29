@@ -27,6 +27,6 @@ jobs:
         uses: cloudbees-io/configure-oci-credentials@v1
         with:
           registry: docker.io # or docker.io
-          username: ${{ vars.QUICKSTART_DOCKER_USERNAME }}
-          password: $ {{ secrets.QUICKSTART_DOCKER_PASSWORD }}
+          username: ${{ vars.EL_DOCKER_USERNAME }}
+          password: $ {{ secrets.EL_DOCKER_PASSWORD }}
           
