@@ -28,5 +28,5 @@ jobs:
         with:
           registry: index.docker.io # or docker.io
           username: ${{ vars.EL_DOCKER_USERNAME }}
-          password: $ {{ secrets.EL_DOCKER_PASSWORD }}
+          password: ${{ secrets.EL_DOCKER_PASSWORD }}
           
