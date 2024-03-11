@@ -23,3 +23,5 @@ jobs:
           go test -v ./...
       - uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v1
         kind: scan
+      - uses: cloudbees-io/sonarqube-bundled-sast-scan-code@v1
+        kind: scan
